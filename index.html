@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirect</title>
+</head>
+<body>
+<script>
+  if (/android/i.test(navigator.userAgent)) {
+    window.location.href = "https://play.google.com/store/apps/details?id=hs.holidaysystem.holidaysystem&hl=it";
+  } else if (/iPad|iPhone|iPod/.test(navigator.userAgent)) {
+    window.location.href = "https://apps.apple.com/app/holiday-system/id6711355387";
+  } else {
+    window.location.href = "https://holidaysystem.it";
+  }
+</script>
+</body>
+</html>
